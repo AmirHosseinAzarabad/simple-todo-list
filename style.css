@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #f3f0ff;
+    font-family: Arial, sans-serif;
+    
+}
+
+.todo-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin-bottom: 25px;
+    text-align: center;
+    color: #292344;
+    font-size: 28px;
+}
+h4{
+        color: #292344;
+}
+.todo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.todo-form input {
+    flex: 1;
+    min-width: 0;
+    padding: 13px;
+    border: 1px solid #ddd8f0;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+.todo-form input:focus {
+    border-color: #7655e8;
+}
+
+.add-btn {
+    padding: 0 22px;
+    border: none;
+    border-radius: 8px;
+    background: #7655e8;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background: #6040d0;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    border: 1px solid #eeeaf8;
+    border-radius: 8px;
+    background: #faf9ff;
+}
+
+.todo-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #39334f;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.todo-content input {
+    width: 17px;
+    height: 17px;
+    accent-color: #7655e8;
+    cursor: pointer;
+}
+
+.todo-content input:checked + span {
+    color: #aaa5b8;
+    text-decoration: line-through;
+}
+
+.delete-btn {
+    border: none;
+    background: transparent;
+    color: #e05252;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .todo-container {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .todo-content {
+        font-size: 13px;
+    }
+}
