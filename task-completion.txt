@@ -1,3 +1,7 @@
-This file was created on the remote branch. 
+This file was created on the remote branch and githun exercise 
 
 This edit taks file 
+
+completion created repository 
+
+push the initail first version project
