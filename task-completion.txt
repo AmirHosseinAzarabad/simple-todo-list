@@ -1,7 +1,13 @@
-This file was created as part of the GitHub exercise.
+This file was created as part of the GitHub exercise. 
 
-This edit task file 
 
-completion created repository 
+This file was created as part of the GitHub exercise ✅
 
-push the initial first version project
+
+Create a repository ✅
+
+
+Edit the task file ✅
+
+
+Push the initial version of the project ✅
